@@ -16,8 +16,8 @@ struct Furniture : Identifiable, Hashable {
 }
 
 var furnitures = [
-    [Furniture(id: 0, image: "chairYellow", title: "Wood Frame", price: "Rs 1000"),
-     Furniture(id: 1, image: "frame", title: "Yellow Chair", price: "Rs 5000")],
+    [Furniture(id: 0, image: "chairYellow", title: "Yellow Chair", price: "Rs 5000"),
+     Furniture(id: 1, image: "frame", title: "Wood Frame", price: "Rs 1000")],
     
     [Furniture(id: 2, image: "modernChair", title: "Modern Chair", price: "Rs 5000"),
      Furniture(id: 3, image: "ikeaingolf", title: "ikea ingolf", price: "Rs 2000")],
