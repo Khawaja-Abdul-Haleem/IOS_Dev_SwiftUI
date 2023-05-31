@@ -29,3 +29,13 @@ struct CategoryRow_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct Category: View {
+    let categoryName: String
+    var body: some View {
+        VStack {
+            Text("")
+        }
+        .navigationBarTitle(categoryName)
+    }
+}
